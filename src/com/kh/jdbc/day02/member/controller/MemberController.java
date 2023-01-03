@@ -7,12 +7,17 @@ public class MemberController {
 	 * 
 	 * @return
 	 */
+	
 	public List<Member> printAll() {	// SELECT * FROM MEMBER_TBL
 		MemberDAO mDao = new MemberDAO();
 		List<Member> mList = mDao.selectAll();
 		return mList;
 	}
-	
+	/**
+	 * 아이디로 조회
+	 * @param memberId
+	 * @return
+	 */
 	public Member printOneById(String memberId) { 	// SELECT * FROM MEMBER_TBL WHERE MEMBER_ID = ?
 		// ResultSet이 1개면 Member
 		// RseultSet이 1개 이상이면 List<member>

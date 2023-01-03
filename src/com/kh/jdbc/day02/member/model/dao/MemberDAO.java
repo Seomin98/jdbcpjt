@@ -152,7 +152,7 @@ public class MemberDAO {
 
 
 	/**
-	 * 
+	 * 회원 가입
 	 * @param member
 	 * @return
 	 */

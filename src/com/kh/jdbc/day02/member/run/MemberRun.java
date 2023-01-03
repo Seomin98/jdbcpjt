@@ -11,6 +11,7 @@ public class MemberRun {
 		int result = 0;
 		String memberId = "";
 		String memberName = "";
+		
 		goodbye :
 		while(true) {
 			int choice = mView.mainMenu();

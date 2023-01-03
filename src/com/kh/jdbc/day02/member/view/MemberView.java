@@ -44,6 +44,7 @@ public class MemberView {
 		System.out.print(", 취미 : " + member.getMemberHobby());
 		System.out.println(", 가입날짜 : " + member.getMemberDate());
 	}
+	
 	public Member inputLoginInfo() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("=== === 로그인 정보 입력 === ===");

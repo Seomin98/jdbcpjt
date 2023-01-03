@@ -14,9 +14,7 @@ public class Member {
 	private String MemberHobby;
 	private Timestamp memberDate;
 	
-	public Member() {
-		
-	}
+	public Member() {}
 
 	
 
